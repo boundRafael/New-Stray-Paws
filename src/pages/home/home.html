@@ -1,0 +1,28 @@
+
+<ion-header  class="color">
+  <ion-navbar>
+    <ion-title>Map</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="color">
+  
+  <div #map id="map">
+  
+  </div>
+
+  <div class="buttons">
+    <div class="camera">
+      <button  ion-fab (click)="takePhoto()">
+        <ion-icon name="camera"> </ion-icon>
+      </button>
+    </div>
+
+    <div class="albums">
+      <button ion-fab  (click)="showProfilePage()"> 
+        <ion-icon name="albums"></ion-icon>
+      </button>
+    </div>
+
+  </div>
+</ion-content>
